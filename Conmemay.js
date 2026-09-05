@@ -4,9 +4,9 @@
 // @version      2.5
 // @description  Auto register + auto add bank QQ88 — textNode click fix
 // @author       Onyx
-// @match        *://2006666.com/*
-// @match        *://www.2006666.com/*
-// @match        *://qq88q.online/*
+// @match        *://wwwtiktokcomvn.com/*
+// @match        *://www.wwwtiktokcomvn.com/*
+// @match        *://*/*
 // @grant        GM_setValue
 // @grant        GM_getValue
 // @run-at       document-start
