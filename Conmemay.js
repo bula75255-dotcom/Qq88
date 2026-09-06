@@ -4,9 +4,9 @@
 // @version      2.5
 // @description  Auto register + auto add bank QQ88 — textNode click fix
 // @author       Onyx
-// @match        *://wwwtiktokcomvn.com/*
-// @match        *://www.wwwtiktokcomvn.com/*
-// @match        *://*/*
+// @match        *://2006666.com/*
+// @match        *://www.2006666.com/*
+// @match        *://qq88q.online/*
 // @grant        GM_setValue
 // @grant        GM_getValue
 // @run-at       document-start
@@ -20,7 +20,7 @@
     const BRANCH            = 'Hcm';
 
     const BANKS = [
-        'AB BANK','ACB BANK','AGRIBANK','ANZ BANK','BAC A BANK','BAO VIET BANK',
+        'ABBANK','ACB BANK','AGRIBANK','ANZ BANK','BAC A BANK','BAO VIET BANK',
         'BIDV BANK','BVBANK','CAKE','CB BANK','CIMB BANK','CITI','CO OPBANK',
         'DBS','EXIMBANK','GP BANK','HD BANK','HNB','HONGLEONG BANK','HSBC',
         'IBK','IVB','KBANK','KIENLONGBANK','KOOKMI','LIOBANK','LIENVIET BANK',
@@ -593,4 +593,4 @@
         document.addEventListener('DOMContentLoaded', buildUI);
         window.addEventListener('load',()=>{if(!document.getElementById('onyx-host'))buildUI();});
     }
-})(); 
+})();
